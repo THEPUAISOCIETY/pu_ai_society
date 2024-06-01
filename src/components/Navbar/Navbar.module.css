@@ -1,0 +1,71 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 8px;
+    /* margin-top: 10px; */
+    padding-left: 40px;
+    padding-right: 100px;
+
+    /* background-color: #14121e; */
+    /* background: linear-gradient(180deg, #14121e 0%, #08060e 100%); */
+    /* background-color: #23047F; */
+}
+
+/* left side - logo, title */
+.leftSide{
+    top: 20px;
+    display: flex;
+    gap: 10px; 
+    /* margin-left: 5%; */
+    
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+.title{
+    color: #E6E4EC;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.6px;
+}
+
+/* home, students */
+.centerSide{
+    /* position: relative;
+    top: 35.5px; */
+    gap: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E6E4EC;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21.6px;
+}
+
+/* right side */
+.rightSide{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding: 2px;
+    background-image: linear-gradient(72.13deg, #23047F 22.7%, #8680FB 65.82%, #1019FF 101.76%);
+    /* background-image: linear-gradient(to right top, #1019ff, #3834ff, #4f48ff, #615aff, #726bfe, #7168f1, #7064e4, #6e61d7, #5c4abc, #4934a2, #371e89, #230470); */
+    border-radius: 25px;    
+    /* margin-right: 8%; */
+}
+
+button{
+    background-color: #120E11;
+    border: none;
+    border-radius: 25px;
+    color: #E6E4EC;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 10px;
+    /* line-height: 21.6px; */
+}
