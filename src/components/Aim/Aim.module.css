@@ -84,7 +84,7 @@
     -webkit-text-fill-color: transparent;
     background-clip: text; 
     color: transparent;
-    z-index: 4;
+    z-index: 5;
 }
 
 .c2{
@@ -93,7 +93,7 @@
     -webkit-text-fill-color: transparent;
     background-clip: text; /* For non-webkit browsers */
     color: transparent;
-    z-index: 4;
+    z-index: 5;
 }
 
 .c3{
@@ -102,7 +102,7 @@
     -webkit-text-fill-color: transparent;
     background-clip: text; /* For non-webkit browsers */
     color: transparent;
-    z-index: 4;
+    z-index: 5;
 }
 
 .c4{
@@ -111,7 +111,7 @@
     -webkit-text-fill-color: transparent;
     background-clip: text; /* For non-webkit browsers */
     color: transparent;
-    z-index: 4;
+    z-index: 5;
 }
 
 .c5{
@@ -120,7 +120,7 @@
     -webkit-text-fill-color: transparent;
     background-clip: text; /* For non-webkit browsers */
     color: transparent;
-    z-index: 4;
+    z-index: 5;
 }
 
 /* .blobcontainer{
@@ -156,4 +156,215 @@
     background: radial-gradient(ellipse at center,  #3c10d9db 0%, #3c11d77e 30%, #311b6100 60%);
     border-radius: 50%; /* Create an oval shape */
     transform: translateY(50%); /* Move the oval down to show only the bottom half */
+}
+
+.cargimg{
+    /* position: relative; */
+    background-color: #0008ff;
+}
+
+.rect1{
+    position: absolute;
+    top: 10px;
+    left: 80px;
+    z-index: 4;
+}
+.rect2{
+    top: 70px;
+    left: 220px;
+    position: absolute;
+    z-index: 4;
+}
+
+.star1{
+    top: 0px;
+    left: 100px;
+    position: absolute;
+    z-index: 4;
+}
+.star2{
+    top: 40px;
+    left: 320px;
+    position: absolute;
+    z-index: 4;
+}
+.bulb1{
+    top: 20px;
+    left: 200px;
+    position: absolute;
+    z-index: 4;
+}
+.bulb2{
+    top: 70px;
+    left: 305px;
+    position: absolute;
+    z-index: 4;
+}
+
+.planet1{
+    top: 0px;
+    position: absolute;
+    z-index: 4;
+}
+.planet2{
+    top: 20px;
+    left: 130px;
+    position: absolute;
+    z-index: 4;
+}
+.planet3{
+    top: 0px;
+    left: 200px;
+    position: absolute;
+    z-index: 4;
+}
+.planet4{
+    top: 30px;
+    left: 300px;
+    position: absolute;
+    z-index: 4;
+}
+
+.neuron1{
+    top: 0px;
+    left: 140px;
+    position: absolute;
+    z-index: 4;
+}
+.neuron2{
+    top: 0px;
+    left: 290px;
+    position: absolute;
+    z-index: 4;
+}
+
+.cube1{
+    top: 30px;
+    left: 40px;
+    position: absolute;
+    z-index: 4;
+}
+.cube2{
+    top: 10px;
+    left: 270px;
+    position: absolute;
+    z-index: 4;
+}
+
+@media (max-width: 800px) {
+    .heading{
+        margin-top: 60px;
+        font-size: 35px;
+        line-height: 38px;
+    }
+    .subheading{
+        font-size: 17px;
+        line-height: 24px;
+        margin: 0px 0px;
+    }
+}
+
+@media (max-width: 500px) {
+    .heading{
+        margin-top: 130px;
+        font-size: 30px;
+        line-height: 32px;
+    }
+    .subheading{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .card{
+        height: 180px;
+        width: 280px;
+    }
+    .cardbg{
+        margin: 20px 10px;
+    }
+    .star1{
+        top: 0px;
+        left: 80px;
+        position: absolute;
+        z-index: 4;
+    }
+    .star2{
+        top: 40px;
+        left: 290px;
+        position: absolute;
+        z-index: 4;
+    }
+    .bulb1{
+        top: 20px;
+        left: 170px;
+        position: absolute;
+        z-index: 4;
+    }
+    .bulb2{
+        top: 70px;
+        left: 240px;
+        position: absolute;
+        z-index: 4;
+    }
+    
+    .planet1{
+        top: 0px;
+        position: absolute;
+        z-index: 4;
+    }
+    .planet2{
+        top: 20px;
+        left: 90px;
+        position: absolute;
+        z-index: 4;
+    }
+    .planet3{
+        top: 0px;
+        left: 160px;
+        position: absolute;
+        z-index: 4;
+    }
+    .planet4{
+        /* display: none; */
+        top: 30px;
+        left: 230px;
+        position: absolute;
+        z-index: 4;
+    }
+    
+    .neuron1{
+        top: 0px;
+        left: 140px;
+        position: absolute;
+        z-index: 4;
+    }
+    .neuron2{
+        top: 0px;
+        left: 230px;
+        position: absolute;
+        z-index: 4;
+    }
+    
+    .cube1{
+        top: 30px;
+        left: 40px;
+        position: absolute;
+        z-index: 4;
+    }
+    .cube2{
+        top: 10px;
+        left: 230px;
+        position: absolute;
+        z-index: 4;
+    }
+
+    .c3 br{
+        display: none;
+    }
+    .c4 br{
+        display: none;
+    }
+    .c5 br{
+        display: none;
+    }
+    
 }

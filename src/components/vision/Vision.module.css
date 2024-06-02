@@ -23,6 +23,7 @@
     line-height: 48px;
     text-align: center;
     padding-top: 120px;
+    margin: 0px 10px;
     margin-bottom: 50px;
     z-index: 3;
     position: relative;
@@ -82,4 +83,25 @@
                       linear-gradient(180deg, #120837 1px, transparent 1px);
     background-size: 120px 80px;
     z-index: 1;
+}
+
+/* Media Query */
+/* @media (max-width: 802px) {
+    .description {
+        margin: 0px 10%;
+    }
+} */
+
+@media (max-width: 902px) {
+    .description {
+        margin: 0px 10%;
+    }
+}
+
+@media (max-width: 500px) {
+    .description {
+        margin: 0px 10%;
+        font-size: 15px;
+        line-height: 20px;
+    }
 }

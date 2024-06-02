@@ -1,20 +1,26 @@
 import React from 'react'
 import classes from './AnnualEvent.module.css';
+import icon1 from '../../assets/Date.png'
+import icon2 from '../../assets/Ai.png'
+import icon3 from '../../assets/Mentor.png'
+import icon4 from '../../assets/Diversity.png'
+import icon5 from '../../assets/Prize.png'
+import icon6 from '../../assets/Divergroup.png'
 
 const itemOne = [
-  {title: 'Multi-day event with diverse, interdisciplinary student teams'},
-  {title: 'Develop innovative AI applications or solutions.'},
-  {title: 'Corporate/faculty mentors to guide teams.'},
-  {title: 'This diversity fosters creativity and encourages unique perspectives in problem-solving. '},
-  {title: 'Prizes for most impactful AI hacks'},
-  {title: 'Mandatory to have diversity within each group, ensuring representation from different academic disciplines.'},
+  {imgname: icon1, title: 'Multi-day event with diverse, interdisciplinary student teams'},
+  {imgname: icon2, title: 'Develop innovative AI applications or solutions.'},
+  {imgname: icon3, title: 'Corporate/faculty mentors to guide teams.'},
+  {imgname: icon4, title: 'This diversity fosters creativity and encourages unique perspectives in problem-solving. '},
+  {imgname: icon5, title: 'Prizes for most impactful AI hacks'},
+  {imgname: icon6, title: 'Mandatory to have diversity within each group, ensuring representation from different academic disciplines.'},
 ]
 
-const itemTwo = [
-  {title: 'This diversity fosters creativity and encourages unique perspectives in problem-solving. '},
-  {title: 'Prizes for most impactful AI hacks'},
-  {title: 'Mandatory to have diversity within each group, ensuring representation from different academic disciplines.'},
-]
+// const itemTwo = [
+//   {title: 'This diversity fosters creativity and encourages unique perspectives in problem-solving. '},
+//   {title: 'Prizes for most impactful AI hacks'},
+//   {title: 'Mandatory to have diversity within each group, ensuring representation from different academic disciplines.'},
+// ]
 function AnnualEvent() {
   return (
     <div className={classes.eventsection}>
@@ -44,6 +50,9 @@ function AnnualEvent() {
             <div className={classes.element}>
               {itemOne.map((item, index) => (
                 <div className={classes.box_cont} key={index}>
+                  <div className={classes.boximg}>
+                    <img className={classes.icon} src={item.imgname} alt="" />
+                  </div>
                   <p className={classes.text_cont}>{item.title}</p>
                 </div>
               ))}
