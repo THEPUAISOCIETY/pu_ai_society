@@ -71,6 +71,8 @@
     justify-content: space-between;
     margin: 40px;
     z-index: 3;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(calc(-100% * var(--current-slide)));
 }
 
 .box_cont{
@@ -123,6 +125,32 @@
     z-index: 2;
 }
 
+.card{
+    position: relative;
+    overflow: hidden;
+}
+
+
+.dots{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 10px; */
+}
+  
+.dot{
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+  
+.active{
+    background-color: #717171;
+
+}
 @media (max-width: 500px) {
     .title{
         font-size: 35px;
