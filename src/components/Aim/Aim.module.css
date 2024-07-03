@@ -1,5 +1,17 @@
+.aimsection{
+    position: relative;
+    /* background-color: #000000c4; */
+    background-color: #120E11;
+    padding-bottom: 50px;
+}
+
 .aim{
     text-align: center;
+    /* background-color: aqua; */
+    margin-top: -100px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1px;
 }
 
 .heading{
@@ -10,9 +22,349 @@
 }
 
 .subheading{
-    color: #FFFFFF;
+    color: #e5e5e5;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 24px;
-    margin: 0px 338px;
+    margin: 0px 20%;
+}
+
+.allcards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.cardbg{
+    background-image: linear-gradient(106.13deg, #1D192B 11.07%, #1A0A5B 101.29%);
+    /* background-image: linear-gradient(to right top, #1019ff, #3834ff, #4f48ff, #615aff, #726bfe, #7168f1, #7064e4, #6e61d7, #5c4abc, #4934a2, #371e89, #230470); */
+    border-radius: 20px;  
+    margin: 20px;
+    padding: 1px;
+    z-index: 2;
+}
+
+.card{
+    position: relative;
+    color: #FFFFFF;
+    height: 180px;
+    width: 345px;
+    background-color: rgb(30, 30, 30);
+    /* margin: 20px; */
+    border-radius: 20px;
+    border: solid 0.01px rgba(97, 97, 97, 0);
+    font-size: 18px;
+    font-weight: 650;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+    background: linear-gradient(180deg, #0F0E12 0%, #160E30 150.75%);
+}
+
+.mesh{
+    height: 90%;
+    width: 95%;
+    position: absolute;
+    border-radius: 20px;
+    top: 1px;
+    left: 2px;
+    background-image: linear-gradient(90deg, #120837 1px, transparent 1px), 
+                      linear-gradient(180deg, #120837 1px, transparent 1px);
+    background-size: 40px 40px;
+    z-index: 3;
+}
+
+.c1{
+    background: linear-gradient(to right, #ffffff,#3E65F2, #5b7efe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; 
+    color: transparent;
+    z-index: 5;
+}
+
+.c2{
+    background: linear-gradient(to bottom,#ffffff,#ffffff, #0008ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* For non-webkit browsers */
+    color: transparent;
+    z-index: 5;
+}
+
+.c3{
+    background: linear-gradient(to right, #ffffff, #3E65F2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* For non-webkit browsers */
+    color: transparent;
+    z-index: 5;
+}
+
+.c4{
+    background: linear-gradient(to left,#ffffff,#ffffff, #373eff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* For non-webkit browsers */
+    color: transparent;
+    z-index: 5;
+}
+
+.c5{
+    background: linear-gradient(to top, #ffffff, #3E65F2, #3E65F2, #3E65F2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* For non-webkit browsers */
+    color: transparent;
+    z-index: 5;
+}
+
+/* .blobcontainer{
+    background-color: #0008ff;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+
+} */
+/* .blob{
+    background: radial-gradient(circle at center, rgba(1, 72, 179, 0.8) 0, rgba(18, 113, 255, 0) 50%) no-repeat;
+    mix-blend-mode :hard-light;
+
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(177.52deg, #6A38D5 2.07%, #0E0257 137.1%);
+
+} */
+.blobcontainer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%; /* Adjust the height to show half of the oval */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden; /* Hide the top half of the oval */
+    z-index: 1; /* Ensure blob is behind other content */
+}
+.blob {
+    width: 1500px;
+    height: 750px;
+    background: radial-gradient(ellipse at center,  #3c10d9db 0%, #3c11d77e 30%, #311b6100 60%);
+    border-radius: 50%; /* Create an oval shape */
+    transform: translateY(50%); /* Move the oval down to show only the bottom half */
+}
+
+.cargimg{
+    /* position: relative; */
+    background-color: #0008ff;
+}
+
+.rect1{
+    position: absolute;
+    top: 10px;
+    left: 80px;
+    z-index: 4;
+}
+.rect2{
+    top: 70px;
+    left: 220px;
+    position: absolute;
+    z-index: 4;
+}
+
+.star1{
+    top: 0px;
+    left: 100px;
+    position: absolute;
+    z-index: 4;
+}
+.star2{
+    top: 40px;
+    left: 320px;
+    position: absolute;
+    z-index: 4;
+}
+.bulb1{
+    top: 20px;
+    left: 200px;
+    position: absolute;
+    z-index: 4;
+}
+.bulb2{
+    top: 70px;
+    left: 305px;
+    position: absolute;
+    z-index: 4;
+}
+
+.planet1{
+    top: 0px;
+    position: absolute;
+    z-index: 4;
+}
+.planet2{
+    top: 20px;
+    left: 130px;
+    position: absolute;
+    z-index: 4;
+}
+.planet3{
+    top: 0px;
+    left: 200px;
+    position: absolute;
+    z-index: 4;
+}
+.planet4{
+    top: 30px;
+    left: 300px;
+    position: absolute;
+    z-index: 4;
+}
+
+.neuron1{
+    top: 0px;
+    left: 140px;
+    position: absolute;
+    z-index: 4;
+}
+.neuron2{
+    top: 0px;
+    left: 290px;
+    position: absolute;
+    z-index: 4;
+}
+
+.cube1{
+    top: 30px;
+    left: 40px;
+    position: absolute;
+    z-index: 4;
+}
+.cube2{
+    top: 10px;
+    left: 270px;
+    position: absolute;
+    z-index: 4;
+}
+
+@media (max-width: 800px) {
+    .heading{
+        margin-top: 60px;
+        font-size: 35px;
+        line-height: 38px;
+    }
+    .subheading{
+        font-size: 17px;
+        line-height: 24px;
+        margin: 0px 0px;
+    }
+}
+
+@media (max-width: 500px) {
+    .heading{
+        margin-top: 130px;
+        font-size: 30px;
+        line-height: 32px;
+    }
+    .subheading{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .card{
+        height: 180px;
+        width: 280px;
+    }
+    .cardbg{
+        margin: 20px 10px;
+    }
+    .star1{
+        top: 0px;
+        left: 80px;
+        position: absolute;
+        z-index: 4;
+    }
+    .star2{
+        top: 40px;
+        left: 290px;
+        position: absolute;
+        z-index: 4;
+    }
+    .bulb1{
+        top: 20px;
+        left: 170px;
+        position: absolute;
+        z-index: 4;
+    }
+    .bulb2{
+        top: 70px;
+        left: 240px;
+        position: absolute;
+        z-index: 4;
+    }
+    
+    .planet1{
+        top: 0px;
+        position: absolute;
+        z-index: 4;
+    }
+    .planet2{
+        top: 20px;
+        left: 90px;
+        position: absolute;
+        z-index: 4;
+    }
+    .planet3{
+        top: 0px;
+        left: 160px;
+        position: absolute;
+        z-index: 4;
+    }
+    .planet4{
+        /* display: none; */
+        top: 30px;
+        left: 230px;
+        position: absolute;
+        z-index: 4;
+    }
+    
+    .neuron1{
+        top: 0px;
+        left: 140px;
+        position: absolute;
+        z-index: 4;
+    }
+    .neuron2{
+        top: 0px;
+        left: 230px;
+        position: absolute;
+        z-index: 4;
+    }
+    
+    .cube1{
+        top: 30px;
+        left: 40px;
+        position: absolute;
+        z-index: 4;
+    }
+    .cube2{
+        top: 10px;
+        left: 230px;
+        position: absolute;
+        z-index: 4;
+    }
+
+    .c3 br{
+        display: none;
+    }
+    .c4 br{
+        display: none;
+    }
+    .c5 br{
+        display: none;
+    }
+    
 }
