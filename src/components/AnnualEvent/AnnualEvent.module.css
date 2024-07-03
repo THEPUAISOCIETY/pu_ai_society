@@ -1,0 +1,33 @@
+.heading{
+    color: #EDEBF7;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.card{
+    border: 2px;
+    border-color: #1D192B;
+    border-radius: 20px;
+    background-color: #0F0E12;
+    margin: 0px 100px;
+}
+
+.title{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52.8px;
+    margin-left: 40px;
+}
+
+.element{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    margin-left: 40px;
+    justify-content: space-between;
+}

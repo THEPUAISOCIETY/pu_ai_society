@@ -1,0 +1,23 @@
+.vision{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    color: #EDEBF7;
+    font-weight:  600;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.description{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28.8px;
+    margin: 0px 340px;
+    text-align: justify;
+}
