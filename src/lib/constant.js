@@ -10,10 +10,10 @@ export const NAVITEM = [
       title: 'Home',
       link: '/'
     },
-    {
-      title: 'Students',
-      link: '/students'
-    },
+    // {
+    //   title: 'Students',
+    //   link: '/students'
+    // },
     {
       title: 'Vision',
       link: '/vision'
@@ -21,11 +21,11 @@ export const NAVITEM = [
     {
       title: 'Annual Event',
       link: '/annual-event'
+    },
+    {
+        title: 'Our Team',
+        link: '/team'
     }
-    // {
-    //     title: 'Teams',
-    //     link: '/teams'
-    // },
   ];
 
   export const itemOne = [
@@ -53,6 +53,15 @@ export const NAVITEM = [
     {imgname: icon4, title: 'This diversity fosters creativity and encourages unique perspectives in problem-solving. '},
     {imgname: icon5, title: 'Prizes for most impactful AI hacks'},
     {imgname: icon6, title: 'Mandatory to have diversity within each group, ensuring representation from different academic disciplines.'},
+  ];
+
+  export const itemFour = [
+    {imgname: null, title: 'John Doe', role: 'President'},
+    {imgname: null, title: 'John Doe', role: 'Vice President'},
+    {imgname: null, title: 'John Doe', role: 'Mentor'},
+    {imgname: null, title: 'John Doe', role: 'Dev Lead'},
+    {imgname: null, title: 'John Doe', role: 'Design Lead'},
+    {imgname: null, title: 'John Doe', role: 'Outreach Head'},
   ];
   
   

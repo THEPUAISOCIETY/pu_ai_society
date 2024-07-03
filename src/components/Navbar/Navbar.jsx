@@ -24,9 +24,7 @@ function Navbar() {
       <div className={classes.centerSide}>
         {NAVITEM.map((item, key) => (
           <Link to={item.link} key={key}>
-            <p>
-              {item.label}
-            </p>
+              {item.title}
           </Link>
         ))}
       </div>

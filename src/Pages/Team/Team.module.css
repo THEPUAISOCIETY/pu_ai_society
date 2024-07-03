@@ -1,0 +1,120 @@
+.teamsection{
+    position: relative;
+    background-color: #120E11;
+    padding-bottom: 50px;
+    padding-top: 60px;
+    background: linear-gradient(180deg, #120E11 0%, #241830 150.75%);
+    z-index: 1;
+}
+
+.teams{
+    text-align: center;
+    /* background-color: aqua; */
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1px;
+    padding-bottom: 50px ;
+}
+
+.heading{
+    color: #BBB9C4;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.subheading{
+    color: #e5e5e5;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0px 20%;
+}
+
+
+/* ///////////// */
+
+
+
+
+.cardbg{
+    background-image: linear-gradient(106.13deg, #1D192B 11.07%, #4f3e95 44%, #1A0A5B 101.29%);
+    /* background-image: linear-gradient(to right top, #1019ff, #3834ff, #4f48ff, #615aff, #726bfe, #7168f1, #7064e4, #6e61d7, #5c4abc, #4934a2, #371e89, #230470); */
+    border-radius: 20px;   
+    margin: 0px 10%; 
+    margin-bottom: 100px;
+    padding: 4px 4px;
+    position: relative;
+}
+
+.card{
+    position: relative;
+    border: solid 0.001px rgba(128, 128, 128, 0);
+    border-radius: 20px;
+    /* background-color: #0F0E12; */
+    background: linear-gradient(180deg, #120E11 0%, #251f2b 150.75%);
+}
+
+
+.element{
+    font-weight: 500;
+    font-size: 20px;
+    /* line-height: 24px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px;
+    z-index: 3;
+}
+
+.box_cont{
+    width: 350px;
+    /* height: 150px; */
+    margin: 50px 2px;
+    /* background-color: #1A0A5B; */
+
+    /* margin-bottom: 5px; */
+    /* background-color: #0427a519; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+
+}
+
+.text_cont{
+    color: white;
+    padding-top: 18px;
+    margin: 0px;
+
+}
+.role_cont{
+    color: white;
+    font-weight: 300;
+    font-size: 18px;
+    padding-top: 5px;
+    margin: 0px;
+}
+
+
+.mesh{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border-radius: 20px;
+    top: 1px;
+    left: 2px;
+    background-image: linear-gradient(90deg, #170b43e3 1.25px, transparent 1px), 
+                      linear-gradient(180deg, #1e0f54dd 1.25px, transparent 1px);
+    background-size: 150px 150px;
+    z-index: -2;
+}
+
+.boximg{
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+    background-color: #4f3e953a;
+}
