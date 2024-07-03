@@ -8,6 +8,8 @@ function Header() {
     <header>
         {/*  */}
         <div className={classes.header}>
+            <div className={classes.mesh}></div>
+
             {/* shape */}
             <div className={classes.shape}>
               <p>Shape how this transformative technology impacts our world.</p>
@@ -15,7 +17,7 @@ function Header() {
 
             {/* Image */}
             <div className={classes.brainImg}>
-              <img src={brain} alt="brain" />
+              <img className={classes.brainImg_} src={brain} alt="brain" />
             </div>
         </div>
 

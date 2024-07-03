@@ -1,18 +1,139 @@
 .header{
-    margin-top: 100px;
+    /* margin-top: -70px; */
+    /* margin-bottom: -350px; */
+    /* background-color: blueviolet; */
+    /* background: radial-gradient(180deg, #100F14 0%, #0E0D0B 100%); */
+    /* background: radial-gradient(180deg, #1b1826 0%, #0e0b0e 100%); */
+    background: radial-gradient(circle, #251e41ac 0%, #16131fdb 50%, #0000003c 100%);
+    position: relative;
 }
 
 .shape{
     color: #FFFFFF;
+    /* height: 100%; */
     font-weight: 500;
     font-size: 64px;
     line-height: 71.94px;
     text-align: center;
-    margin-left: 185px;
-    margin-right: 185px;
+    /* margin-left: 185px; */
+    /* margin-right: 185px; */
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 2px;
+    padding-top: 30px;
+    /* padding-top: 60px; */
+    background: linear-gradient(to top, #808080, #eeeeee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* For non-webkit browsers */
+    color: transparent;
+    z-index: 2;
+    position: relative;
 }
 
-/* .brainImg{
-    width: 468px;
-    height: 468px;
-} */
+.brainImg{
+    /* width: 468px;
+    height: 468px; */
+    text-align: center;
+    margin-top: -150px;
+    z-index: 2;
+    position: relative;
+}
+
+.brainImg_{
+    width: 800px;
+    height: 800px;
+}
+
+.mesh{
+    height: 90%;
+    width: 100%;
+    position: absolute;
+    border-radius: 20px;
+    top: 1px;
+    left: 2px;
+    background-image: linear-gradient(90deg, #21125a 1px, rgba(33, 18, 90, 0.6) 2px, transparent 2px), 
+    linear-gradient(180deg, #241851 1px, transparent 1px);
+    /* background-image: linear-gradient(90deg, #21125a 1px, transparent 1px), 
+                      linear-gradient(180deg, #241851 1px, transparent 1px); */
+    background-size: 200px 150px;
+    z-index: 1;
+}
+
+.mesh::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        linear-gradient(40deg, transparent 1px, rgba(255, 255, 255, 0.862) 2px, transparent 2px), 
+        linear-gradient(180deg, transparent 1px, rgba(255, 255, 255, 0.2) 1px, transparent 1px);
+    background-size: 200px 150px;
+    /* mix-blend-mode: overlay; */
+    z-index: 2;
+}
+
+@media (max-width: 800px) {
+    .brainImg_{
+        /* width: 100%; */
+        width: 500px;
+        height: 500px;
+    }
+    .shape{
+        font-size: 50px;
+        line-height: 55.94px;
+        padding-top: 5px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media (max-width: 500px) {
+    .brainImg_{
+        /* width: 100%; */
+        width: 300px;
+        height: 300px;
+    }
+    .shape{
+        font-size: 30px;
+        line-height: 32.94px;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 80px;
+        /* background: transparent; */
+    }
+    .header{
+        /* background-color: pink; */
+        background: #120E11;
+    }
+    .mesh{
+        height: 90%;
+        width: 100%;
+        position: absolute;
+        border-radius: 20px;
+        top: 1px;
+        left: 2px;
+        background-image: linear-gradient(90deg, #21125a 1px, rgba(33, 18, 90, 0.6) 2px, transparent 2px), 
+        linear-gradient(180deg, #241851 1px, transparent 1px);
+        /* background-image: linear-gradient(90deg, #21125a 1px, transparent 1px), 
+                          linear-gradient(180deg, #241851 1px, transparent 1px); */
+        background-size: 100px 70px;
+        z-index: 1;
+    }
+    .mesh::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: 
+            linear-gradient(40deg, transparent 1px, rgba(255, 255, 255, 0.862) 2px, transparent 2px), 
+            linear-gradient(180deg, transparent 1px, rgba(255, 255, 255, 0.2) 1px, transparent 1px);
+        background-size: 100px 70px;
+        /* mix-blend-mode: overlay; */
+        z-index: 2;
+    }
+}
