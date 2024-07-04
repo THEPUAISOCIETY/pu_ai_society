@@ -5,15 +5,17 @@ function Vision() {
   return (
     <div className={classes.vision}>
         <div className={classes.mesh}></div>
-
+        <div className={classes.line}></div>
         {/* heading */}
         <div className={classes.heading}>
-          <p>Vision  of this project</p>
+          <p>Vision Of Our <br/><span>Society</span></p>
         </div>
 
         {/* description */}
         <div className={classes.description}>
-          <p>To cultivate a dynamic community at The PU AI Society where diversity fuels innovation, knowledge is shared freely, and every member is empowered to harness the transformative potential of Artificial Intelligence for the betterment of society. Through collaboration, education, and ethical practices, we envision a future where AI serves as a force for positive change across all disciplines and sectors, contributing to a more inclusive and sustainable world. We aspire to elevate The PU AI Society to becoming a beacon of innovation and excellence not only within Parul University but also recognized by governmental bodies for our impactful out-of-the-box initiatives, setting a precedent for pioneering work in the field of AI.</p>
+          <p> <div className={classes.pointer}></div> To cultivate a dynamic community at The PU AI Society where diversity fuels innovation, knowledge is shared freely, and every member is empowered to harness the transformative potential of Artificial Intelligence for the betterment of society.</p> <br /><br />
+          <p> <div className={classes.pointer}></div> Through collaboration, education, and ethical practices, we envision a future where AI serves as a force for positive change across all disciplines and sectors, contributing to a more inclusive and sustainable world. </p> <br /><br />
+          <p> <div className={classes.pointer}></div> We aspire to elevate The PU AI Society to becoming a beacon of innovation and excellence not only within Parul University but also recognized by governmental bodies for our impactful out-of-the-box initiatives, setting a precedent for pioneering work in the field of AI.</p> <br /><br />
         </div>
 
         <div className={classes.blobcontainer}>

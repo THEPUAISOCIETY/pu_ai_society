@@ -29,24 +29,61 @@ function AnnualEvent() {
 
         {/* heading */}
         <div className={classes.heading}>
-          <p>Major Annual Event</p>
+          <p>Major Annual Events</p>
+        </div>
+        
+
+        {/* card container */}
+        <div className={classes.cardContainer}>
+          <div
+            className={classes.cardWrapper}
+            style={{ transform: `translateX(-${currentSlide * 100}%)` }}
+          >
+            {cards.map((card, cardIndex) => (
+              <div className={classes.cardbg} key={cardIndex}>
+                <div className={classes.blobcontainer}>
+                  <div className={classes.blob_}></div>
+                </div>
+                <div className={classes.card}>
+                  <div className={classes.mesh}></div>
+
+                  {/* title */}
+                  <div className={classes.title}>
+                    <p>PU AI Society Hackathon</p>
+                  </div>
+
+                  {/* elements */}
+                  <div className={classes.element}>
+                    {card.map((item, index) => (
+                      <div className={classes.boxCont} key={index}>
+                        <div className={classes.boximg}>
+                          <img className={classes.icon} src={item.imgname} alt="" />
+                        </div>
+                        <p className={classes.textCont}>{item.title}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
 
         {/* card */}
-        <div className={classes.cardbg}>
+        {/* <div className={classes.cardbg}>
           <div className={classes.blobcontainer}>
               <div className={classes.blob_}></div>
           </div>
           <div className={classes.card}>
-            <div className={classes.mesh}></div>
+            <div className={classes.mesh}></div> */}
 
             {/* title */}
-            <div className={classes.title}>
+            {/* <div className={classes.title}>
               <p>PU AI Society Hackathon</p>
-            </div>
+            </div> */}
 
             {/* elements */}
-            <div className={classes.element}>
+            {/* <div className={classes.element}>
             {cards[currentSlide].map((item, index) => (
               <div className={classes.box_cont} key={index}>
                 <div className={classes.boximg}>
@@ -55,19 +92,11 @@ function AnnualEvent() {
                 <p className={classes.text_cont}>{item.title}</p>
               </div>
             ))}
-          </div>
-
-            {/* elements */}
-            {/* <div  className={classes.element}>
-            {itemTwo.map((item, index) => (
-              <div key={index}>
-              <p className={classes.text_cont}>{item.title}</p>
             </div>
-            ))}
-            </div> */}
-          
+     
           </div>
-        </div>
+        </div> */}
+        
           {/* dots navigation */}
           <div className={classes.dots}>
             {cards.map((_, index) => (

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import classes from './Navbar.module.css'
 import logo from '../../assets/logo.png'
 import { NAVITEM } from '../../lib/constant'
-import { Link } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,11 +23,11 @@ function Navbar() {
       {/* home, students */}
       <div className={classes.centerSide}>
         {NAVITEM.map((item, key) => (
-          <Link to={item.link} key={key}>
-            <p>
-              {item.label}
-            </p>
-          </Link>
+          <NavLink to={item.link} key={key} 
+          className={({isActive})=>`${classes.navlink} ${isActive?classes.activeNav:""}`
+          }>
+              {item.title}
+          </NavLink>
         ))}
       </div>
 
@@ -45,9 +45,14 @@ function Navbar() {
 
       {isOpen && (
         <div className={classes.dropdownMenu}>
-          <a href="#">Home</a>
+          {/* <a href="#">Home</a>
           <a href="#">Students</a>
-          <a href="#">Join Us</a>
+          <a href="#">Join Us</a> */}
+          {NAVITEM.map((item, key) => (
+            <Link to={item.link} key={key}>
+                {item.title}
+            </Link>
+          ))}
         </div>
       )}
       {/* <div className={classes.opt}></div>

@@ -5,7 +5,7 @@ import Header from "./components/Header/Header"
 import Navbar from "./components/Navbar/Navbar"
 import Vision from "./Pages/Vision/Vision"
 import Home from "./Pages/Home/Home"
-// import Teams from "./Pages/Teams/Teams"
+import Team from "./Pages/Team/Team"
 import Students from "./Pages/Students/Students"
 
 function App() {
@@ -18,8 +18,8 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/vision' element={<Vision />} />
         <Route path='/annual-event' element={<AnnualEvent />} />
-        {/* <Route path='/teams' element={<Teams />} /> */}
-        <Route path='/students' element={<Students />} />
+        <Route path='/team' element={<Team />} />
+        {/* <Route path='/students' element={<Students />} /> */}
       </Routes>
     </BrowserRouter>
     </>
