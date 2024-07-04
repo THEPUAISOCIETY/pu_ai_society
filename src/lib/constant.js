@@ -19,7 +19,7 @@ export const NAVITEM = [
       link: '/vision'
     },
     {
-      title: 'Annual Event',
+      title: 'Annual Events',
       link: '/annual-event'
     },
     {
