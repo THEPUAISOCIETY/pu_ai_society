@@ -7,6 +7,7 @@ import Vision from "./Pages/Vision/Vision"
 import Home from "./Pages/Home/Home"
 import Team from "./Pages/Team/Team"
 import Students from "./Pages/Students/Students"
+import Footer from "./components/Footer/Footer"
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <Route path='/team' element={<Team />} />
         {/* <Route path='/students' element={<Students />} /> */}
       </Routes>
+      <Footer />
     </BrowserRouter>
     </>
   )
