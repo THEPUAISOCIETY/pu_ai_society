@@ -4,6 +4,8 @@
   background-color: #1d1f21;
   color: #ffffff;
   padding: 40px 20px;
+  z-index: 4; /* Higher than vision */
+  position: relative; /* Ensure it creates its own stacking context */
   /* font-family: 'Arial', sans-serif; */
 }
 
