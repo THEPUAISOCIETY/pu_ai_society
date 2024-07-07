@@ -40,25 +40,29 @@ function Footer() {
             {/* Address */}
             <div className={classes.location}>
               <img src={Location} alt="Location" className={classes.locationimg} />
-              <p>Parul University</p>
+              <p className={classes.textp}>Parul University</p>
             </div>
 
             {/* contact */}
             <div className={classes.contact}>
               <img src={Contact} alt="Contact" />
-              <p>+91 6353435262</p>
+              <p className={classes.textp}>+91 6353435262</p>
             </div>
 
             {/* mail */}
             <div className={classes.mail}>
               <img src={Mail} alt="Mail" />
-              <p>thepuaisocietyg@gmail.com</p>
+              <p className={classes.textp}>
+                <a href="mailto:thepuaisocietyg@gmail.com">
+                  thepuaisocietyg@gmail.com
+                </a>
+              </p>
             </div>
 
             {/* social links */}
             <div className={classes.sociallink}>
               <div>
-                <p>Social Link:</p>
+                <p className={classes.textp}>Social Link:</p>
               </div>
               <div className={classes.social}>
                 <img src={Twitter} alt="Twitter" />
@@ -84,7 +88,7 @@ function Footer() {
             ))}
           </div>
           <div className={classes.copyright}>
-            <p>Copyright 2024 PU AI Society</p>
+            <p className={classes.textp}>Copyright 2024 PU AI Society</p>
           </div>
         </div>
 
