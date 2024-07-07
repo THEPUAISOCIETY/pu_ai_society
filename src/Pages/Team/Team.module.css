@@ -112,9 +112,14 @@
     z-index: -2;
 }
 
-.boximg{
+.boximg {
     width: 180px;
     height: 180px;
     border-radius: 100px;
     background-color: #4f3e953a;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.boximg:hover {
+    box-shadow: 0 0 15px 5px rgba(79, 62, 149, 0.8);
 }
