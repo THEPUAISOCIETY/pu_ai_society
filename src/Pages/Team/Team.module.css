@@ -123,3 +123,29 @@
 .boximg:hover {
     box-shadow: 0 0 15px 5px rgba(79, 62, 149, 0.8);
 }
+
+
+@media (max-width: 500px) {
+
+    .subheading{
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+    .boximg{
+        width: 120px;
+        height: 120px;
+    }
+
+    .element{
+        margin: 10px;
+    }
+    .box_cont{
+        margin: 30px 2px;
+    }
+
+}
