@@ -1,6 +1,6 @@
 import React from 'react'
 import classes from './Team.module.css';
-import { itemFour } from '../../lib/constant';
+import { TEAMS } from '../../lib/constant';
 
 
 export default function Teams() {
@@ -20,7 +20,7 @@ export default function Teams() {
 
             {/* elements */}
             <div className={classes.element}>
-              {itemFour.map((item, index) => (
+              {TEAMS.map((item, index) => (
                 <div className={classes.box_cont} key={index}>
                   <div className={classes.boximg}>
                     {/* <img className={classes.icon} src={item.imgname} alt="" /> */}

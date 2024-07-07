@@ -55,7 +55,7 @@ export const NAVITEM = [
     {imgname: icon6, title: 'Mandatory to have diversity within each group, ensuring representation from different academic disciplines.'},
   ];
 
-  export const itemFour = [
+  export const TEAMS = [
     {imgname: null, title: 'John Doe', role: 'President'},
     {imgname: null, title: 'John Doe', role: 'Vice President'},
     {imgname: null, title: 'John Doe', role: 'Mentor'},
