@@ -4,6 +4,8 @@ import icon3 from '../assets/Mentor.png'
 import icon4 from '../assets/Diversity.png'
 import icon5 from '../assets/Prize.png'
 import icon6 from '../assets/Divergroup.png'
+import harsh_dave from '../assets/harsh_dave.jpg'
+import serena_chokshi from '../assets/serena_chokshi.jpg'
 
 export const NAVITEM = [
     {
@@ -56,12 +58,12 @@ export const NAVITEM = [
   ];
 
   export const TEAMS = [
-    {imgname: null, title: 'Harsh Dave', role: 'President & Founder'},
-    {imgname: null, title: 'Serena Chokshi', role: 'Vice President'},
-    {imgname: null, title: 'John Doe', role: 'Mentor'},
-    {imgname: null, title: 'John Doe', role: 'Dev Lead'},
-    {imgname: null, title: 'John Doe', role: 'Design Lead'},
-    {imgname: null, title: 'John Doe', role: 'Outreach Head'},
+    {imgname: harsh_dave, title: 'Harsh Dave', role: 'President & Founder'},
+    {imgname: serena_chokshi, title: 'Serena Chokshi', role: 'Vice President'},
+    // {imgname: null, title: 'John Doe', role: 'Mentor'},
+    // {imgname: null, title: 'John Doe', role: 'Dev Lead'},
+    // {imgname: null, title: 'John Doe', role: 'Design Lead'},
+    // {imgname: null, title: 'John Doe', role: 'Outreach Head'},
   ];
   
   

@@ -23,7 +23,7 @@ export default function Teams() {
               {TEAMS.map((item, index) => (
                 <div className={classes.box_cont} key={index}>
                   <div className={classes.boximg}>
-                    {/* <img className={classes.icon} src={item.imgname} alt="" /> */}
+                    <img className={classes.icon} src={item.imgname} alt="" />
                   </div>
                   <p className={classes.text_cont}>{item.title}</p>
                   <p className={classes.role_cont}>{item.role}</p>

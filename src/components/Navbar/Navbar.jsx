@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import classes from './Navbar.module.css'
-import logo from '../../assets/logo.png'
+import logoNav from '../../assets/logoNav.png'
 import { NAVITEM } from '../../lib/constant'
 import { NavLink, Link } from 'react-router-dom';
 
@@ -15,7 +15,7 @@ function Navbar() {
     <nav>
       {/*  logo */}
       <div className={classes.leftSide}>
-        <img src={logo} alt="logo" className={classes.logo} />
+        <img src={logoNav} alt="logo" className={classes.logo} />
         <p className={classes.title}>The PU AI Society</p>
         {/* The PU AI Society */}
       </div>
