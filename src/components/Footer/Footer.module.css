@@ -1,7 +1,7 @@
 /* Footer.module.css */
 
 .footer {
-  background-color: #1d1f21;
+  background: linear-gradient(180deg, #120E11 0%, #241830 150.75%);
   color: #ffffff;
   padding: 40px 20px;
   z-index: 4; /* Higher than vision */

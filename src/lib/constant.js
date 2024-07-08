@@ -56,8 +56,8 @@ export const NAVITEM = [
   ];
 
   export const TEAMS = [
-    {imgname: null, title: 'John Doe', role: 'President'},
-    {imgname: null, title: 'John Doe', role: 'Vice President'},
+    {imgname: null, title: 'Harsh Dave', role: 'President & Founder'},
+    {imgname: null, title: 'Serena Chokshi', role: 'Vice President'},
     {imgname: null, title: 'John Doe', role: 'Mentor'},
     {imgname: null, title: 'John Doe', role: 'Dev Lead'},
     {imgname: null, title: 'John Doe', role: 'Design Lead'},
