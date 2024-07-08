@@ -121,7 +121,16 @@
 }
 
 .boximg:hover {
-    box-shadow: 0 0 15px 5px rgba(79, 62, 149, 0.8);
+    box-shadow: 0 0 15px 5px rgba(79, 62, 149, 0.8), 
+    0 0 50px 20px rgba(60, 16, 217, 0.5),
+    0 0 100px 30px rgba(60, 17, 215, 0.5),
+    0 0 200px 40px rgba(49, 27, 97, 0.0);
+}
+
+.icon {
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
 }
 
 
