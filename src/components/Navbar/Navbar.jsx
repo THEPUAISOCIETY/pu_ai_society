@@ -15,7 +15,9 @@ function Navbar() {
     <nav>
       {/*  logo */}
       <div className={classes.leftSide}>
-        <img src={logoNav} alt="logo" className={classes.logo} />
+        <Link to="/" className={classes.logoLink}>
+          <img src={logoNav} alt="logo" className={classes.logo} />
+        </Link>
         <p className={classes.title}>The PU AI Society</p>
         {/* The PU AI Society */}
       </div>
@@ -23,10 +25,14 @@ function Navbar() {
       {/* home, students */}
       <div className={classes.centerSide}>
         {NAVITEM.map((item, key) => (
-          <NavLink to={item.link} key={key} 
-          className={({isActive})=>`${classes.navlink} ${isActive?classes.activeNav:""}`
-          }>
-              {item.title}
+          <NavLink
+            to={item.link}
+            key={key}
+            className={({ isActive }) =>
+              `${classes.navlink} ${isActive ? classes.activeNav : ""}`
+            }
+          >
+            {item.title}
           </NavLink>
         ))}
       </div>
@@ -50,16 +56,16 @@ function Navbar() {
           <a href="#">Join Us</a> */}
           {NAVITEM.map((item, key) => (
             <Link to={item.link} key={key}>
-                {item.title}
+              {item.title}
             </Link>
           ))}
         </div>
       )}
       {/* <div className={classes.opt}></div>
-        <div className={classes.opt}></div>
+          <div className={classes.opt}></div>
         <div className={classes.opt}></div> */}
     </nav>
-  )
+  );
 }
 
 export default Navbar

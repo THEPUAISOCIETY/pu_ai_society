@@ -26,13 +26,6 @@
   margin-top: 40px;
 }
 
-.logoContainer {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-top: 30px;
-  margin-bottom: 25px;
-}
 
 .logo {
   max-width: 250px;
@@ -77,8 +70,6 @@
   margin-right: 10px;
 }
 
-
-
 .infoItem p, .infoItem a {
   margin: 0;
   color: #cacacf;
@@ -94,7 +85,7 @@
 }
 
 .socialContainer {
-  flex: 1;
+  flex: -1;
   text-align: center;
 }
 
@@ -106,7 +97,7 @@
 
 .socialIcons {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start; /* Align icons to the left */
   gap: 15px;
   margin-top: 10px;
 }
@@ -231,5 +222,10 @@
 
   .logoContainer {
     margin-right: 0px;
+  }
+
+  .socialContainer {
+    order: -1; /* Move social icons to the top */
+    margin-bottom: 20px; /* Add some spacing */
   }
 }
