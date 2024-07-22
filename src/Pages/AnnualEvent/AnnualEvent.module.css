@@ -83,7 +83,7 @@
     line-height: 24px;
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     margin: 40px;
     z-index: 3;
   }
@@ -124,27 +124,11 @@
     z-index: -2;
   }
   
-  .blob_1 {
-    width: 900px;
+  .blob_ {
+    width: 700px;
     height: 250px;
     background: radial-gradient(ellipse at center, #3a1cb097 0%, #340fac66 30%, #311b6100 60%);
-    transform: translate(10%, -30%) rotate(10.81deg);
-    z-index: 2;
-  }
-  
-  .blob_2 {
-    width: 1100px;
-    height: 250px;
-    background: radial-gradient(ellipse at center, #3a1cb097 0%, #340fac66 30%, #311b6100 60%);
-    transform: translate(10%, -30%) rotate(10.81deg);
-    z-index: 2;
-  }
-  
-  .blob_3 {
-    width: 900px;
-    height: 250px;
-    background: radial-gradient(ellipse at center, #3a1cb097 0%, #340fac66 30%, #311b6100 60%);
-    transform: translate(10%, -30%) rotate(-10.81deg);
+    transform: translate(10%, -30%);
     z-index: 2;
   }
   

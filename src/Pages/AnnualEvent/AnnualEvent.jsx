@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import classes from './AnnualEvent.module.css';
-import { HEADING, ITEMONE, ITEMTHREE, ITEMTWO, } from '../../lib/constant';
+import { itemOne, itemThree, itemTwo } from '../../lib/constant';
 
 // const itemTwo = [
 //   {title: 'This diversity fosters creativity and encourages unique perspectives in problem-solving. '},
@@ -8,7 +8,7 @@ import { HEADING, ITEMONE, ITEMTHREE, ITEMTWO, } from '../../lib/constant';
 //   {title: 'Mandatory to have diversity within each group, ensuring representation from different academic disciplines.'},
 // ]
 
-const cards = [ITEMONE, ITEMTWO, ITEMTHREE];
+const cards = [itemOne, itemTwo, itemThree];
 
 function AnnualEvent() {
 
@@ -20,19 +20,6 @@ function AnnualEvent() {
     }, 5000); // Change slide every 5 seconds
     return () => clearInterval(interval);
   }, []);
-
-  const getBlobClass = () => {
-    switch (currentSlide) {
-      case 0:
-        return classes.blob_1;
-      case 1:
-        return classes.blob_2;
-      case 2:
-        return classes.blob_3;
-      default:
-        return classes.blob_1;
-    }
-  };
 
   return (
     <div className={classes.eventsection}>
@@ -55,14 +42,14 @@ function AnnualEvent() {
             {cards.map((card, cardIndex) => (
               <div className={classes.cardbg} key={cardIndex}>
                 <div className={classes.blobcontainer}>
-                  <div className={getBlobClass()}></div>
+                  <div className={classes.blob_}></div>
                 </div>
                 <div className={classes.card}>
                   <div className={classes.mesh}></div>
 
                   {/* title */}
                   <div className={classes.title}>
-                    <p>{HEADING[cardIndex].heading}</p>
+                    <p>PU AI Society Hackathon</p>
                   </div>
 
                   {/* elements */}
