@@ -22,20 +22,20 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  position: relative;
-  margin-top: 40px;
 }
 
 .logoContainer {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  flex: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 30px;
   margin-bottom: 25px;
+  margin-right: 20px;
 }
 
 .logo {
-  max-width: 250px;
+  max-width: 200px;
   height: auto;
 }
 
@@ -130,9 +130,7 @@
     rgb(92, 55, 167) 50%,
     rgb(157, 108, 255) 100%
   );
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-items: center;
