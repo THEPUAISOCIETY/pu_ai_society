@@ -53,7 +53,6 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className={classes.line}></div>
         <div className={classes.bottomSection}>
           <div className={classes.navLinks}>
             {NAVITEM.map((item, key) => (
@@ -70,8 +69,6 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className={classes.topBlob}></div>
-      <div className={classes.bottomBlob}></div>
     </footer>
   );
 }

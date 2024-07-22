@@ -7,7 +7,6 @@
   z-index: 4; /* Higher than vision */
   position: relative; /* Ensure it creates its own stacking context */
   /* font-family: 'Arial', sans-serif; */
-  overflow: hidden;
 }
 
 
@@ -21,7 +20,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
+  border-bottom: 1px solid #444;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .logoContainer {
@@ -29,13 +31,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   margin-right: 20px;
 }
 
 .logo {
-  max-width: 200px;
+  max-width: 150px;
   height: auto;
 }
 
@@ -121,27 +122,12 @@
   transform: scale(1.1);
 }
 
-.line {
-  height: 5px;
-  width: 100%;
-  background: linear-gradient(
-    to bottom,
-    rgba(157, 108, 255, 0) 0%,
-    rgb(92, 55, 167) 50%,
-    rgb(157, 108, 255) 100%
-  );
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-items: center;
-}
-
 .bottomSection {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 .navLinks {
@@ -182,28 +168,6 @@
 
 .credit a:hover {
   color: #3E65F2;
-}
-
-.topBlob {
-  width: 50vw;
-  height: 25vw; 
-  background: radial-gradient(ellipse at center, #633ee882 0%, #4b1bea3f 30%, #311b6100 60%);
-  border-radius: 50%;
-  position: absolute;
-  top: -12.5vw; 
-  right: -25vw; 
-  z-index: 1;
-}
-
-.bottomBlob {
-  width: 40vw;
-  height: 40vw;
-  background: radial-gradient(ellipse at center, #633ee896 0%, #4b1bea4c 30%, #311b6100 60%);
-  border-radius: 50%;
-  position: absolute;
-  bottom: -20vw;
-  left: -20vw;
-  z-index: 1;
 }
 
 @media (max-width: 768px) {
