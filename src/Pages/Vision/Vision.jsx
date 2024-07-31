@@ -1,27 +1,31 @@
 import React from 'react'
 import classes from './Vision.module.css'
+import graphic from '../../assets/vision.png'
 
 function Vision() {
   return (
     <div className={classes.vision}>
         <div className={classes.mesh}></div>
-        <div className={classes.line}></div>
         {/* heading */}
         <div className={classes.heading}>
-          <p>Vision Of Our <br/><span>Society</span></p>
+          <p>Vision<br/><span>& Mission</span></p>
         </div>
 
         {/* description */}
         <div className={classes.description}>
-          <p> <div className={classes.pointer}></div> To cultivate a dynamic community at The PU AI Society where diversity fuels innovation, knowledge is shared freely, and every member is empowered to harness the transformative potential of Artificial Intelligence for the betterment of society.</p> <br /><br />
-          <p> <div className={classes.pointer}></div> Through collaboration, education, and ethical practices, we envision a future where AI serves as a force for positive change across all disciplines and sectors, contributing to a more inclusive and sustainable world. </p> <br /><br />
-          <p> <div className={classes.pointer}></div> We aspire to elevate The PU AI Society to becoming a beacon of innovation and excellence not only within Parul University but also recognized by governmental bodies for our impactful out-of-the-box initiatives, setting a precedent for pioneering work in the field of AI.</p> <br /><br />
+          <p>Our mission is to cultivate a <span>diverse community</span> of AI enthusiasts at Parul University, fostering innovation through education, collaborative projects, and ethical practices, while developing cutting-edge AI solutions that address real-world challenges 
+          and expand our influence through impactful outreach and continuous growth.</p>
         </div>
 
         <div className={classes.blobcontainer}>
             <div className={classes.blob1}></div>
             <div className={classes.blob2}></div>
         </div>
+
+        <div className={classes.vis_img}>
+          <img src={graphic} alt="" />
+        </div>
+        
 
     </div>
   )
