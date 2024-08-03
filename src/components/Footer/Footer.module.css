@@ -11,8 +11,9 @@
 
 
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
+  /* max-width: 1200px; */
+  /* margin: 0 auto; */
+  margin: 0px 10%; 
   padding: 0 20px;
 }
 
@@ -234,5 +235,12 @@
 
 }
 
+@media (max-width: 355px) {
 
+  .infoItem p, .infoItem a {
+    font-size: 10px;
+    font-weight: 100; 
+    /* why is this font weight not working */
+  }
+}
 

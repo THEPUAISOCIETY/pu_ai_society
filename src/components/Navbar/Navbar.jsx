@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import classes from './Navbar.module.css'
-import logoNav from '../../assets/logoNav.png'
+// import logoNav from '../../assets/logoNav.png'
+import logoNav from '../../assets/footer_logo.png';
 import { NAVITEM } from '../../lib/constant'
 import { NavLink, Link } from 'react-router-dom';
 
