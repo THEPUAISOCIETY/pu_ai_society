@@ -14,6 +14,23 @@ import icon2Card3 from '../assets/icon2Card3.png'
 import icon3Card3 from '../assets/icon3Card3.png'
 import harsh_dave from '../assets/harsh_dave.jpg'
 import serena_chokshi from '../assets/serena_chokshi.jpg'
+import vivek from '../assets/vivek.jpeg'
+import kanika from '../assets/kanika.jpeg'
+import akshat from '../assets/akshat.jpeg'
+import hrishu from '../assets/hrishu.jpeg'
+import kashish from '../assets/kashish.jpeg'
+import kavya from '../assets/kavya.jpeg'
+import niharika from '../assets/niharika.jpeg'
+import dhwani from '../assets/dhwani.jpeg'
+import yash from '../assets/yash.jpeg'
+import shivam from '../assets/shivam.jpeg'
+import hetashri from '../assets/hetashri.jpeg'
+import maanav from '../assets/maanav.jpeg'
+import purvi from '../assets/purvi.jpeg'
+import asmi from '../assets/asmi.jpeg'
+import archana from '../assets/archana.png'
+
+
 
 export const NAVITEM = [
     {
@@ -69,9 +86,28 @@ export const NAVITEM = [
   export const TEAMS = [
     {imgname: harsh_dave, title: 'Harsh Dave', role: 'President & Founder'},
     {imgname: serena_chokshi, title: 'Serena Chokshi', role: 'Vice President'},
-    // {imgname: null, title: 'John Doe', role: 'Mentor'},
-    // {imgname: null, title: 'John Doe', role: 'Dev Lead'},
-    // {imgname: null, title: 'John Doe', role: 'Design Lead'},
+    {imgname: maanav, title: 'Maanav Shah', role: 'Treasurer'},
+
+    {imgname: hetashri, title: 'Hetashri Kansariwala', role: 'Technical Head'},
+    {imgname: purvi, title: 'Purvi Malviya', role: 'Technical Head'},
+    {imgname: kashish, title: 'Kashish Tripathi', role: 'Marketing & Digital Presence Head'},
+
+    {imgname: vivek, title: 'Vivek Vahane', role: 'Marketing Head'},
+    {imgname: kavya, title: 'Kavya Vyas', role: 'Events Head'},
+    {imgname: niharika, title: 'Niharika Sharma', role: 'Events Head'},
+
+    {imgname: shivam, title: 'Shivam Dolia', role: 'Social Media Head'},
+    {imgname: asmi, title: 'Asmi Gupta', role: 'Social Media Head'},
+    {imgname: archana, title: 'Archana Ba Parmar', role: 'Social Media Head'},
+
+    {imgname: yash, title: 'Yash Sharma', role: 'Administration Head'},
+    {imgname: hrishu, title: 'Hrishu Aerpula', role: 'Sponsorship Head'},
+    {imgname: akshat, title: 'Akshat Sanghvi', role: 'Sponsorship Head'},
+
+    {imgname: kanika, title: 'Kanika Dogra', role: 'Partnerships & Outreach Head'},
+    {imgname: dhwani, title: 'Dhwani Desai', role: 'Partnerships & Outreach Head'},
+
+    // {imgname: null, title: 'John Doe', role: 'Outreach Head'},
     // {imgname: null, title: 'John Doe', role: 'Outreach Head'},
   ];
   
