@@ -28,7 +28,7 @@ import hetashri from '../assets/hetashri.jpeg'
 import maanav from '../assets/maanav.jpeg'
 import purvi from '../assets/purvi.jpeg'
 import asmi from '../assets/asmi.jpeg'
-import archana from '../assets/archana.png'
+import archana from '../assets/archana.jpeg'
 
 
 
