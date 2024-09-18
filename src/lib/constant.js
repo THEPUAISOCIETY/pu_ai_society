@@ -98,11 +98,11 @@ export const NAVITEM = [
 
     {imgname: shivam, title: 'Shivam Dolia', role: 'Social Media Head'},
     {imgname: asmi, title: 'Asmi Gupta', role: 'Social Media Head'},
-    {imgname: archana, title: 'Archana Ba Parmar', role: 'Social Media Head'},
 
     {imgname: yash, title: 'Yash Sharma', role: 'Administration Head'},
     {imgname: hrishu, title: 'Hrishu Aerpula', role: 'Sponsorship Head'},
     {imgname: akshat, title: 'Akshat Sanghvi', role: 'Sponsorship Head'},
+    {imgname: archana, title: 'Archana Ba Parmar', role: 'Sponsorship Head'},
 
     {imgname: kanika, title: 'Kanika Dogra', role: 'Partnerships & Outreach Head'},
     {imgname: dhwani, title: 'Dhwani Desai', role: 'Partnerships & Outreach Head'},
