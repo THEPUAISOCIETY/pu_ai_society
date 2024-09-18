@@ -34,7 +34,9 @@ function Navbar() {
 
       {/* join us */}
       <div className={classes.rightSide}>
-        <button>Join us</button>
+        <Link to='https://puaiso.paruluniversity.ac.in/'>
+          <button>Join us</button>
+        </Link>
       </div>
 
       {/* dropdown */}
