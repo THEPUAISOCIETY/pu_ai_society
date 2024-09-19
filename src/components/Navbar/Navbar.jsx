@@ -51,6 +51,11 @@ function Navbar() {
           {/* <a href="#">Home</a>
           <a href="#">Students</a>
           <a href="#">Join Us</a> */}
+      <div className={classes.rightSide}>
+        <Link to='https://puaiso.paruluniversity.ac.in/'>
+          <button>Join us</button>
+        </Link>
+      </div>
           {NAVITEM.map((item, key) => (
             <Link to={item.link} key={key}>
                 {item.title}
