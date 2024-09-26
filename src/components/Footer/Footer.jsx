@@ -42,7 +42,7 @@ function Footer() {
               <div className={classes.infoItem}>
                 <img src={Mail} alt="Mail" />
                 <p>
-                  <a href="mailto:thepuaisocietyg@gmail.com">thepuaisocietyg@gmail.com</a>
+                  <a href="mailto:thepuaisociety@paruluniversity.ac.in">thepuaisociety@paruluniversity.ac.in</a>
                 </p>
               </div>
             </div>
@@ -59,10 +59,10 @@ function Footer() {
               <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
                 <img src={Twitter} alt="Twitter" />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/the-pu-ai-society-974a03321/" target="_blank" rel="noopener noreferrer">
                 <img src={Linkedin} alt="Linkedin" />
               </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/thepu.aisociety" target="_blank" rel="noopener noreferrer">
                 <img src={Instagram} alt="Instagram" />
               </a>
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
