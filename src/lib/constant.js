@@ -29,7 +29,7 @@ import maanav from '../assets/maanav.jpeg'
 import purvi from '../assets/purvi.jpeg'
 import asmi from '../assets/asmi.jpeg'
 import archana from '../assets/archana.jpeg'
-
+import aum from '../assets/aum.jpeg'
 
 
 export const NAVITEM = [
@@ -107,7 +107,8 @@ export const NAVITEM = [
     {imgname: kanika, title: 'Kanika Dogra', role: 'Partnerships & Outreach Head'},
     {imgname: dhwani, title: 'Dhwani Desai', role: 'Partnerships & Outreach Head'},
 
-    // {imgname: null, title: 'John Doe', role: 'Outreach Head'},
+    {imgname: aum, title: 'Aum Kamble', role: 'Administration Head'},
+
     // {imgname: null, title: 'John Doe', role: 'Outreach Head'},
   ];
   

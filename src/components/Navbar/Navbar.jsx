@@ -56,6 +56,9 @@ function Navbar() {
                 {item.title}
             </Link>
           ))}
+            <Link to='https://puaiso.paruluniversity.ac.in/'>
+                JOIN US
+            </Link>
         </div>
       )}
       {/* <div className={classes.opt}></div>
