@@ -35,10 +35,10 @@ function Footer() {
                 <img src={Location} alt="Location" />
                 <p>Parul University</p>
               </div>
-              <div className={classes.infoItem}>
+{/*               <div className={classes.infoItem}>
                 <img src={Contact} alt="Contact" />
                 <p>+91 6353435262</p>
-              </div>
+              </div> */}
               <div className={classes.infoItem}>
                 <img src={Mail} alt="Mail" />
                 <p>
